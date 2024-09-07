@@ -51,6 +51,7 @@ try {
     } catch(err){
         console.log("error while getting current user::",err)
     }
+    return null;
   }
 
   async logout (){
@@ -66,4 +67,4 @@ try {
 const authService = new AuthService()
 
 
-export default AuthService
+export default authService
